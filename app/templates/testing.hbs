@@ -1,2 +1,11 @@
 {{page-title "Testing"}}
+
+hi
+
+{{@model.displayname}}
+
+<button {{on "click" this.test}}>test</button>
+<button {{on "click" this.auth.sign_in_with_popup}}>Sign in</button>
+<button {{on "click" this.auth.sign_out_with_popup}}>Sign out</button>
+
 {{outlet}}
